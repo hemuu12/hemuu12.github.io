@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useEffect } from "react";
+import Routes from "./router/Routes";
+import ScrollToTop from "./components/ScrollToTop";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import AnimatedCursor from "react-animated-cursor";
 
-function App() {
+const App = () => {
+  // this for animation
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <AnimatedCursor
+        innerSize={8}
+        outerSize={44}
+        color="255, 160, 1"
+        outerAlpha={0.3}
+        innerScale={0.7}
+        outerScale={1.2}
+      />
+      <ScrollToTop />
+      <Routes />
+    </>
   );
-}
+};
 
 export default App;
