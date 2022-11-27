@@ -15,7 +15,7 @@ const Routes = () => {
           {/*<Route exact path="/" component={Preview} />*/}
           <Route exact path="/"  component={HomeDark} />
           <Route path="/home-light" component={HomeLight} />
-          {/*<Route path="/home-dark" component={HomeDark} />*/}
+          <Route path="/home-dark" component={HomeDark} />
           <Route component={NotFound} />
         </Switch>
       </Router>

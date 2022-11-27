@@ -14,7 +14,7 @@ const ModalOneBlogContent = () => {
 
       <div className="meta open-sans-font">
         <span>
-          <i className="fa fa-user"></i> Nazarov Asadbek
+          <i className="fa fa-user"></i> Hari Singh Bisht
         </span>
         <span className="date">
           <i className="fa fa-calendar"></i> 4 March 2022
