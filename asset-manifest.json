@@ -1,27 +1,32 @@
 {
   "files": {
-    "main.css": "/static/css/main.9bad6909.chunk.css",
-    "main.js": "/static/js/main.0c206dc4.chunk.js",
-    "main.js.map": "/static/js/main.0c206dc4.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.39657d52.js",
-    "runtime-main.js.map": "/static/js/runtime-main.39657d52.js.map",
+    "main.css": "/static/css/main.499ab06c.chunk.css",
+    "main.js": "/static/js/main.c51ba1aa.chunk.js",
+    "main.js.map": "/static/js/main.c51ba1aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2daf01c2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2daf01c2.js.map",
     "static/css/2.2506683d.chunk.css": "/static/css/2.2506683d.chunk.css",
-    "static/js/2.50461ffd.chunk.js": "/static/js/2.50461ffd.chunk.js",
-    "static/js/2.50461ffd.chunk.js.map": "/static/js/2.50461ffd.chunk.js.map",
-    "static/js/3.f63164e4.chunk.js": "/static/js/3.f63164e4.chunk.js",
-    "static/js/3.f63164e4.chunk.js.map": "/static/js/3.f63164e4.chunk.js.map",
+    "static/js/2.5d5be4bf.chunk.js": "/static/js/2.5d5be4bf.chunk.js",
+    "static/js/2.5d5be4bf.chunk.js.map": "/static/js/2.5d5be4bf.chunk.js.map",
+    "static/js/3.ee629b53.chunk.js": "/static/js/3.ee629b53.chunk.js",
+    "static/js/3.ee629b53.chunk.js.map": "/static/js/3.ee629b53.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.2506683d.chunk.css.map": "/static/css/2.2506683d.chunk.css.map",
-    "static/css/main.9bad6909.chunk.css.map": "/static/css/main.9bad6909.chunk.css.map",
-    "static/js/2.50461ffd.chunk.js.LICENSE.txt": "/static/js/2.50461ffd.chunk.js.LICENSE.txt",
+    "static/css/main.499ab06c.chunk.css.map": "/static/css/main.499ab06c.chunk.css.map",
+    "static/js/2.5d5be4bf.chunk.js.LICENSE.txt": "/static/js/2.5d5be4bf.chunk.js.LICENSE.txt",
+    "static/media/BeautyBebo.b353bf93.png": "/static/media/BeautyBebo.b353bf93.png",
+    "static/media/Hari.590776ff.pdf": "/static/media/Hari.590776ff.pdf",
+    "static/media/Hari.a8872ff8.pdf": "/static/media/Hari.a8872ff8.pdf",
     "static/media/main.scss": "/static/media/fontawesome-webfont.f691f37e.woff",
-    "static/media/hari.a8872ff8.pdf": "/static/media/hari.a8872ff8.pdf"
+    "static/media/socialhub.6439ba39.png": "/static/media/socialhub.6439ba39.png",
+    "static/media/yoox.221cf2ea.png": "/static/media/yoox.221cf2ea.png",
+    "static/media/youtube.fba798e0.png": "/static/media/youtube.fba798e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.39657d52.js",
+    "static/js/runtime-main.2daf01c2.js",
     "static/css/2.2506683d.chunk.css",
-    "static/js/2.50461ffd.chunk.js",
-    "static/css/main.9bad6909.chunk.css",
-    "static/js/main.0c206dc4.chunk.js"
+    "static/js/2.5d5be4bf.chunk.js",
+    "static/css/main.499ab06c.chunk.css",
+    "static/js/main.c51ba1aa.chunk.js"
   ]
 }
