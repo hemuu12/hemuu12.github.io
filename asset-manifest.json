@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.499ab06c.chunk.css",
-    "main.js": "/static/js/main.c51ba1aa.chunk.js",
-    "main.js.map": "/static/js/main.c51ba1aa.chunk.js.map",
+    "main.js": "/static/js/main.e2eefd42.chunk.js",
+    "main.js.map": "/static/js/main.e2eefd42.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.2daf01c2.js",
     "runtime-main.js.map": "/static/js/runtime-main.2daf01c2.js.map",
     "static/css/2.2506683d.chunk.css": "/static/css/2.2506683d.chunk.css",
@@ -15,8 +15,7 @@
     "static/css/main.499ab06c.chunk.css.map": "/static/css/main.499ab06c.chunk.css.map",
     "static/js/2.5d5be4bf.chunk.js.LICENSE.txt": "/static/js/2.5d5be4bf.chunk.js.LICENSE.txt",
     "static/media/BeautyBebo.b353bf93.png": "/static/media/BeautyBebo.b353bf93.png",
-    "static/media/Hari.590776ff.pdf": "/static/media/Hari.590776ff.pdf",
-    "static/media/Hari.a8872ff8.pdf": "/static/media/Hari.a8872ff8.pdf",
+    "static/media/Hari_Bisht_Resume.a8872ff8.pdf": "/static/media/Hari_Bisht_Resume.a8872ff8.pdf",
     "static/media/main.scss": "/static/media/fontawesome-webfont.f691f37e.woff",
     "static/media/socialhub.6439ba39.png": "/static/media/socialhub.6439ba39.png",
     "static/media/yoox.221cf2ea.png": "/static/media/yoox.221cf2ea.png",
@@ -27,6 +26,6 @@
     "static/css/2.2506683d.chunk.css",
     "static/js/2.5d5be4bf.chunk.js",
     "static/css/main.499ab06c.chunk.css",
-    "static/js/main.c51ba1aa.chunk.js"
+    "static/js/main.e2eefd42.chunk.js"
   ]
 }
