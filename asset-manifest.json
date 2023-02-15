@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.7c69b099.css",
+    "main.js": "/static/js/main.39bb808e.js",
+    "static/media/yoox.png": "/static/media/yoox.221cf2ea0bbaa313e73b.png",
+    "static/media/youtube.png": "/static/media/youtube.fba798e0b37970271df2.png",
+    "static/media/BeautyBebo.png": "/static/media/BeautyBebo.b353bf93a50b2c970b11.png",
+    "static/media/socialhub.png": "/static/media/socialhub.6439ba3926d43524971e.png",
+    "static/media/Hari_Bisht_Resume.pdf": "/static/media/Hari_Bisht_Resume.3d32e5ff4cdef182e4f5.pdf",
+    "static/media/khan.jpg": "/static/media/khan.03f770205cad2941be82.jpg",
+    "index.html": "/index.html",
+    "main.7c69b099.css.map": "/static/css/main.7c69b099.css.map",
+    "main.39bb808e.js.map": "/static/js/main.39bb808e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7c69b099.css",
+    "static/js/main.39bb808e.js"
+  ]
+}
