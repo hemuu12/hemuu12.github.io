@@ -1,0 +1,228 @@
+.contact-container{
+    padding: 60px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.why{
+    color: #fff;
+}
+
+
+.contact-header{
+    color: #fff ;
+    padding-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 600;
+}
+.contact-header h3{
+    font-size: 40px;
+    font-weight: 800;
+}
+.contact-header p{
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+.header-underline{
+    height: 3px;
+    width: 200px;
+    /* background-color: rgb(102, 13, 13); */
+    background-color:  #f36303;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-underline1{
+    height: 9px;
+    width: 40px;
+    /* background-color: rgb(255, 7, 7); */
+    background-color: #f36303;
+    position: absolute;
+    border-radius: 5px;
+}
+
+.contactDetails{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+.contactForm{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.formInput{
+    display: flex;
+}
+.leftForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.rows{
+   display: flex;
+   width: 500px;
+   height: fit-content;
+   padding-left: 30px;
+   padding-right: 30px;
+   
+}
+.rows input,textarea{
+    padding: 15px;
+    border: 1px solid #e9ecef;
+    border-radius: 18px;
+    font-size: 14px;
+    background-color: rgb(37,37,37);
+    padding-left: 20px;
+    color: #fff;
+}
+.rows input,textarea{
+    width: 100%;
+}
+#inputMessage{
+    resize: none;
+}
+.rows input::placeholder,textarea::placeholder{
+    /* color: #b5becb; */
+    color: #a7acb1;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.sendButton{
+    margin-top: 20px;
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: end;
+    padding-right: 30px;
+    
+}
+.sendButton button{
+    font-family: 'Roboto', sans-serif;
+    /* border-color: #e54b4b !important; */
+    box-shadow: 0 3px 5px 0 rgb(229 75 75 / 30%);
+    cursor: pointer;
+    /* background-color: #e54b4b !important; */
+    background-color:  rgb(255,180,0);
+    padding: 8px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    transition: all 0.3s;
+    border-radius: 7px;
+    /* border: 1px solid #e54b4b !important; */
+    border: solid  rgb(255,180,0) 1px;
+    color: #fff !important;
+}
+
+.topCtn{
+    grid-column: 1/ span 2;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.btnTp{
+    font-size: 30px;
+    /* border: 1px solid black; */
+    text-align: center;
+    max-width: 300px;
+    min-width: 300px;
+    line-height: .4;
+}
+.btnTp p{
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.btnTp span{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+.btnTp .contactNo a{
+    font-size: 18px;
+ 
+    color: rgb(255,180,0);
+}
+
+@media screen and (max-width: 1110px){
+    
+   
+}
+
+@media screen and (max-width: 910px){
+    .contactForm{
+        grid-template-columns: auto;
+        width: 90%;
+        align-items: center;
+    }
+    
+    .leftForm,.rightForm{
+        width: 100%;
+        padding: 10px;
+    }
+    .topCtn{
+        grid-column: 1 / span 1;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+    .sendButton{
+        grid-column: 1 / span 1;
+        padding-right: 10px;
+    }
+    .rows{
+        width: 100%;
+        height: fit-content;
+        padding-left: 0px;
+        padding-right: 0px;
+     }
+     .rows input{
+        margin-bottom: 10px;
+     } 
+}
+
+@media screen and (max-width: 810px){
+    .contactForm{
+        grid-template-columns: auto;
+        width: 90%;
+        align-items: center;
+    }
+    .formInput{
+        display: block;
+    }
+    .leftForm,.rightForm{
+        width: 100%;
+        padding: 0px;
+    }
+    .topCtn{
+        grid-column: 1 / span 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin-bottom: 100px;
+        align-items: center;
+    }
+    .sendButton{
+        grid-column: 1 / span 1;
+        padding-right: 0px;
+    }
+    .rows{
+        width: 100%;
+        height: fit-content;
+        padding-left: 0px;
+        padding-right: 0px;
+     }
+     .rows input{
+        margin-bottom: 10px;
+     }
+}
