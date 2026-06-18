@@ -1,16 +1,73 @@
-[![HitCount](http://hits.dwyl.io/rbhatia46/React-Portfolio.svg)](http://hits.dwyl.io/rbhatia46/React-Portfolio)
-![Star this repository](https://img.shields.io/github/stars/rbhatia46/React-Portfolio?style=social)
+# Hari Singh Bisht — Portfolio
 
+Personal portfolio website built with React, showcasing my work as a Full Stack Developer.
 
-A simple SPA Portfolio template for developer/designers built with React. Use it to showcase your work, testimonials and other information to clients.
+**Live:** [hemuu12.github.io](https://hemuu12.github.io)
 
-## Preview
-![Preview](https://image.ibb.co/e5uBf0/Capture.png)
+## Features
 
-## How to use
-1. Clone/Download the repo.
-2. Run  ``` npm install ```.
-3. Change the values in ```src/resumeData.js``` to suit your use-case.
-4. Run ```npm start``` to spin the up the local dev server port 3000.(http://localhost:3000).
-5. Make required changes in ```src/resumeData.js``` to suit your needs.
+- Interactive loading animation with cursor trail effects
+- Scroll-reveal animations using Intersection Observer
+- Sections: About, Resume, Portfolio, Testimonials, Contact
+- AI Chat widget
+- Contact form powered by EmailJS
+- Responsive design
+- Resume PDF download
 
+## Tech Stack
+
+- React 16
+- EmailJS for contact form
+- Font Awesome icons
+- CSS (custom layout + default themes)
+- GitHub Actions for deployment to GitHub Pages
+
+## Getting Started
+
+```bash
+# Install dependencies
+npm install
+
+# Start development server
+npm start
+
+# Build for production
+npm run build
+```
+
+## Project Structure
+
+```
+src/
+├── App.js              # Main app with loader + scroll reveal
+├── resumeData.js       # All portfolio content (editable)
+├── components/
+│   ├── Header.js       # Hero section with social links
+│   ├── About.js        # Bio and profile
+│   ├── Resume.js       # Education, work experience, skills
+│   ├── Portfolio.js    # Project showcase
+│   ├── Testimonials.js # Recommendations
+│   ├── ContactUs.js    # Contact form (EmailJS)
+│   ├── Footer.js       # Footer with social links
+│   ├── AiChat.js       # AI chat widget
+│   ├── Loader.js       # Loading animation
+│   └── CursorTrail.js  # Cursor trail effect
+public/
+├── Hari_Bisht_Resume.pdf
+├── images/
+└── css/
+```
+
+## Customization
+
+All portfolio content (bio, experience, education, projects, skills, testimonials) is centralized in `src/resumeData.js`. Edit that file to update the site content.
+
+## Deployment
+
+Pushes to `master` trigger a GitHub Actions workflow that builds and deploys to GitHub Pages.
+
+## Contact
+
+- **Email:** harisingh.bisht2001@gmail.com
+- **LinkedIn:** [hari-singh-bisht](https://www.linkedin.com/in/hari-singh-bisht/)
+- **GitHub:** [hemuu12](https://github.com/hemuu12)
