@@ -2,6 +2,7 @@
   "name": "resume",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://hemuu12.github.io",
   "dependencies": {
     "emailjs-com": "^3.2.0",
     "react": "^16.6.0",
