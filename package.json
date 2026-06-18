@@ -1,59 +1,26 @@
 {
-  "homepage": "https://hemuu12.github.io",
-  "name": "portfolio",
+  "name": "resume",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@emailjs/browser": "^3.10.0",
-    "@material-ui/core": "^4.12.3",
-    "aos": "^2.3.4",
-    "axios": "^0.21.4",
-    "browserslist": "^4.17.1",
-    "react": "^16.14.0",
-    "react-collapse": "^5.1.0",
-    "react-dom": "^16.14.0",
-    "react-github-calendar": "^3.4.0",
-    "react-icons": "^4.7.1",
-    "react-router-dom": "^5.3.4",
-    "react-scripts": "^5.0.0",
-    "react-scroll": "^1.8.4"
+    "emailjs-com": "^3.2.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "react-scripts": "2.1.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "prettier": "prettier --write src/**/*.{js,css}"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "echo 'this is pre-push msg'",
-      "pre-commit": "npm run prettier",
-      "post-commit": "echo 'Successfully ran prettier'"
-    }
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.3",
-    "husky": "^4.3.8"
-  },
-  "engines": {
-    "node": "12.x"
-  }
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
